@@ -18,15 +18,13 @@ html lang="ja"
     == javascript_include_tag  "all"
 
   body class="#{page_classes}"
-
-  == yield
-
-  footer
-    address
-      p
-        'HBFav, HBFav2 &copy; 2011-2013,
-        == link_to "Naoya Ito", "http://naoya.github.io"
-        ',
-        == link_to "Github", "https://github.com/naoya/HBFav2"
-        ',
-        == link_to "Feedback always welcome", "https://github.com/naoya/HBFav2/issues?state=open"
+    == yield
+    footer
+      address
+        p
+          'HBFav, HBFav2 &copy; 2011-2013,
+          == link_to "Naoya Ito", "http://naoya.github.io"
+          ',
+          == link_to "Github", "https://github.com/naoya/HBFav2"
+          ',
+          == link_to "Feedback always welcome", "https://github.com/naoya/HBFav2/issues?state=open"
