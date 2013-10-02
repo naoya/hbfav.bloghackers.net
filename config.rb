@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 ###
 # Compass
 ###
@@ -68,7 +69,7 @@ configure :build do
   # activate :minify_javascript
 
   # Enable cache buster
-  activate :asset_hash
+  # activate :asset_hash
 
   # Use relative URLs
   # activate :relative_assets
@@ -91,6 +92,10 @@ end
 require './lib/middleman-facebook.rb'
 
 activate :facebook do |fb|
+  fb.title  = "HBFav"
   fb.app_id = "1392097617690107"
   fb.href = "http://hbfav.bloghackers.net/"
+  fb.admin_id = "585258893"
+  fb.image = "http://hbfav.bloghackers.net/images/hbfav_icon.png"
+  fb.description = "HBFavは、はてなブックマークをタイムライン形式で読むための iOS アプリです。"
 end

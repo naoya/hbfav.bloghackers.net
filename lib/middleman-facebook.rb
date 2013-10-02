@@ -1,7 +1,7 @@
 # Facebook extension
 module Middleman
   module Facebook
-    class Options < Struct.new(:app_id, :href)
+    class Options < Struct.new(:app_id, :href, :title, :admin_id, :image, :description)
     end
 
     class << self
@@ -18,6 +18,19 @@ module Middleman
     end
 
     module Helpers
+      def fb_og_tag
+        options = Middleman::Facebook.options
+        return <<"EOF"
+<meta property="og:title" content="#{options.title}"/>
+<meta property="og:url" content="#{options.href}"/>
+<meta property="og:image" content="#{options.image}"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="#{options.title}"/>
+<meta property="fb:admins" content="#{options.admin_id}"/>
+<meta property="og:description" content="#{options.description}" />
+EOF
+      end
+
       def fb_header
         options = Middleman::Facebook.options
         return <<"EOF"

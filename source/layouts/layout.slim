@@ -1,5 +1,5 @@
 doctype html
-html lang="ja"
+html lang="ja" prefix="og:http://ogp.me/ns#"
   head
     meta charset="utf-8"
 
@@ -16,6 +16,7 @@ html lang="ja"
 
     == stylesheet_link_tag "normalize", "all", "http://fonts.googleapis.com/css?family=Paytone+One"
     == javascript_include_tag  "all"
+    == fb_og_tag
 
   body class="#{page_classes}"
     == yield
