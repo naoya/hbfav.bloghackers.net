@@ -1,0 +1,37 @@
+{
+    "title" : "HBFav2",
+    "subtitle" : "Hatena-Bookmark Reader for iOS",
+    "image": "screen/00.png",
+
+    "description": {
+        "title": " About HBFav",
+        "paragraphs": [
+            "HBFav2 は、はてなブックマークをタイムライン形式で読むための iOS アプリです。",
+            "はてなブックマーク上で気に入ったユーザーを「お気に入り」に追加しておいて、HBFav を使ってみてください。お気に入りユーザーが集めた新着ブックマークがTwitterストリームのように流れてくるでしょう。",
+            "新しいバージョン 2.0 は安定性を向上する目的で一から開発し直しました。人気エントリーや新着エントリーの閲覧、Pocket への保存、Readability モードで精読など各種新機能も追加しました。"
+        ]
+    },
+
+    "features": [
+        {
+            "title": "エントリを読む",
+            "image": "screen/03.png",
+            "description": "フォローしているお気に入りユーザーが流すエントリはもちろん、ホッテントリこと人気エントリーや新着エントリーの閲覧にも対応しています。"
+        },
+        {
+            "title": "コメント",
+            "image": "screen/06.png",
+            "description": "ブックマークコメントにクイックアクセス。iOSの滑らかなインタフェースでコメントを一望できます。"
+        },
+        {
+            "title": "Readability",
+            "image": "screen/04.png",
+            "description": "ページの装飾が邪魔な場合は Readability モードを使いましょう。記事を集中して精読することができます。(注: 変換がうまくいかない場合もあります。"
+        },
+        {
+            "title": "シェア",
+            "image": "screen/05.png",
+            "description": "面白かった記事をTwitterやFacebookへ。時間切れで読み切れなかった記事ははてなブックマークへ、あるいはPocketへ。"
+        }
+    ]
+}

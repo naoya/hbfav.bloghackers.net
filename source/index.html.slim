@@ -1,0 +1,38 @@
+---
+title: HBFav2
+---
+
+section.container
+  .head
+  .jumbotron
+    .row
+      .col-md-4
+        == image_tag data.page.image, :class => 'img-responsive'
+
+      .col-md-8
+        .main-col
+          h1
+            == data.page.title
+            i.icon-rss
+
+          p.subtitle == data.page.subtitle
+
+          div.description
+            h2
+              i.icon-apple
+              == data.page.description.title
+            - data.page.description.paragraphs.each do |paragraph|
+              p == paragraph
+            p
+              - link_to "https://itunes.apple.com/jp/app/hbfav/id477950722" do
+                == image_tag "Available_on_the_App_Store_Badge_US-UK_135x40_0824.png"
+
+section.container class="middle"
+  .row
+    - data.page.features.each do |feature|
+      .col-md-3
+        .thubnail
+          == image_tag feature.image, :class => "img-responsive"
+          .caption
+            h3 == feature.title
+            p == feature.description
