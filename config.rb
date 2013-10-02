@@ -54,6 +54,11 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
+# Google Analytics
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-42856270-1'
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment

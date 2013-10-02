@@ -19,3 +19,4 @@ end
 gem 'middleman-sync'
 gem 'bootstrap-sass', git: 'git@github.com:thomas-mcdonald/bootstrap-sass.git', require: false
 gem 'font-awesome-middleman'
+gem 'middleman-google-analytics'
