@@ -87,3 +87,10 @@ activate :sync do |sync|
   sync.gzip_compression = false
   sync.after_build = false
 end
+
+require './lib/middleman-facebook.rb'
+
+activate :facebook do |fb|
+  fb.app_id = "1392097617690107"
+  fb.href = "http://hbfav.bloghackers.net/"
+end
