@@ -34,7 +34,16 @@ section.container
 
 section.container class="middle"
   .row
-    - data.page.features.each do |feature|
+    - data.page.features1.each do |feature|
+      .col-md-3
+        .thubnail
+          == image_tag feature.image, :class => "img-responsive"
+          .caption
+            h3 == feature.title
+            p == feature.description
+
+  .row
+    - data.page.features2.each do |feature|
       .col-md-3
         .thubnail
           == image_tag feature.image, :class => "img-responsive"

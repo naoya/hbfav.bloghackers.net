@@ -1,37 +1,60 @@
 {
-    "title" : "HBFav2",
-    "subtitle" : "Hatena-Bookmark Reader for iOS",
-    "image": "screen/00.png",
+  "title" : "HBFav2",
+  "subtitle" : "Hatena-Bookmark Reader for iOS",
+  "image": "screen/ios7/00.png",
 
-    "description": {
-        "title": " About HBFav",
-        "paragraphs": [
-            "HBFavは、はてなブックマークをタイムライン形式で読むための iOS アプリです。",
-            "はてなブックマーク上で気に入ったユーザーを「お気に入り」に追加しておいて、HBFav を使ってみてください。お気に入りユーザーが集めた新着ブックマークがTwitterストリームのように流れてくるでしょう。",
-            "新しいバージョン 2.0 は安定性を向上する目的で一から開発し直しました。人気エントリーや新着エントリーの閲覧、Pocket への保存、Readability モードで精読など各種新機能も追加しました。"
-        ]
-    },
-
-    "features": [
-        {
-            "title": "エントリを読む",
-            "image": "screen/03.png",
-            "description": "フォローしているお気に入りユーザーが流すエントリはもちろん、ホッテントリこと人気エントリーや新着エントリーの閲覧にも対応しています。"
-        },
-        {
-            "title": "コメント",
-            "image": "screen/06.png",
-            "description": "ブックマークコメントにクイックアクセス。iOSの滑らかなインタフェースでコメントを一望できます。"
-        },
-        {
-            "title": "Readability",
-            "image": "screen/04.png",
-            "description": "ページの装飾が邪魔な場合は Readability モードを使いましょう。記事を集中して精読することができます。(注: 変換がうまくいかない場合もあります。"
-        },
-        {
-            "title": "シェア",
-            "image": "screen/05.png",
-            "description": "面白かった記事をTwitterやFacebookへ。時間切れで読み切れなかった記事ははてなブックマークへ、あるいはPocketへ。"
-        }
+  "description": {
+    "title": " About HBFav",
+    "paragraphs": [
+      "HBFavは、はてなブックマークをタイムライン形式で読むための iOS アプリです。",
+      "はてなブックマーク上で気に入ったユーザーを「お気に入り」に追加しておいて、HBFav を使ってみてください。お気に入りユーザーが集めた新着ブックマークがTwitterストリームのように流れてくるでしょう。",
+      "新しいバージョン 2.0 は安定性を向上する目的で一から開発し直しました。人気エントリーや新着エントリーの閲覧、Pocket への保存、Readability モードで精読など各種新機能も追加しました。"
     ]
+  },
+
+  "features1": [
+    {
+      "title": "エントリを読む",
+      "image": "screen/ios7/03.png",
+      "description": "フォローしているお気に入りユーザーが流すエントリはもちろん、ホッテントリこと人気エントリーや新着エントリーの閲覧にも対応しています。"
+    },
+    {
+      "title": "コメント",
+      "image": "screen/ios7/04.png",
+      "description": "ブックマークコメントにクイックアクセス。iOSの滑らかなインタフェースでコメントを一望できます。"
+    },
+    {
+      "title": "Readability",
+      "image": "screen/ios7/05.png",
+      "description": "ページの装飾が邪魔な場合は Readability モードを使いましょう。記事を集中して精読することができます。(注: 変換がうまくいかない場合もあります。"
+    },
+    {
+      "title": "シェア",
+      "image": "screen/ios7/08.jpg",
+      "description": "面白かった記事をTwitterやFacebookへ。時間切れで読み切れなかった記事ははてなブックマークへ、あるいはPocketへ。"
+    }
+  ],
+
+  "features2": [
+    {
+      "title": "プッシュ通知",
+      "image": "screen/ios7/10.jpg",
+      "description": "プッシュ通知により、フォローしたユーザーのブックマークが届きます。ブックマークがニュースヘッドラインに様変わり。"
+    },
+    {
+      "title": "人気エントリー",
+      "image": "screen/ios7/07.png",
+      "description": "もちろん人気エントリーも見ることができます。カテゴリも対応。"
+    },
+    {
+      "title": "ブックマークする",
+      "image": "screen/ios7/09.jpg",
+      "description": "はてなブックマークへのブックマーク追加も完全対応。タグ、Twitter連携、非公開設定そのほか万全です。"
+    },
+    {
+      "title": "新機能",
+      "image": "screen/ios7/06.png",
+      "description": "HBFav2は精力的に開発が行われています。今後も新機能を続々追加していきます。"
+    }
+  ]
 }
